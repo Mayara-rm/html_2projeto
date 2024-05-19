@@ -1,0 +1,106 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px 0px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.header {
+    background-color: rgb(187, 239, 255);
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+}
+.content {
+    border-radius: 15px 0;
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.footer {
+    background-color: rgb(197, 196, 201);
+    align-items: center;
+    min-height: 150px;
+    font-size: 15px;
+    font-style: bold;
+    position: relative;
+    
+
+}
+div ul {
+    list-style: none;
+}
+div ul li a{
+    display: flex;
+    padding: 20px 05px;
+    color: #2D3736;
+    text-decoration: none;
+    border-radius: 15px 0;
+}
+div ul li a:hover{
+    color: #2D3736;
+    background-color: #53f5d4;}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(136, 136, 136);
+}
+a{
+    padding: 30px;
+}
+.video{
+    height: 300px;
+    width: 500px;
+    padding: 10px;
+}
+.servicos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(136, 136, 136);
+    font-size: 15px;
+}
+table{
+    font-size: 15px;
+
+}
+.content2{
+
+    padding: 20px 05px;
+    color: #2D3736;
+    text-decoration: none;
+    border-radius: 15px 0;
+    background-color: white;
+    padding: 20px;
+    font-family: sans-serif;
+}
+form{
+    padding: 20px 05px;
+    color: #2D3736;
+    text-decoration: none;
+    border-radius: 15px 0;
+    background-color: white;
+    padding: 20px;
+    font-family: sans-serif;
+}
